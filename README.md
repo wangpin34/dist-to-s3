@@ -32,8 +32,10 @@ s3
 ```
 basePath is the relative path to the file while caculating the s3 key of the file.
 e.g.
-when: file: ./dist/stylesheets/app.css, basePath: ./dist
-Then the key of the file ([What](#)) will be /stylesheets/app.js. By default the basePath is same with the folder(the first argument of the upload function).
+when: 
+* file: ./dist/stylesheets/app.css, 
+* basePath: ./dist
+Then the key of the file ([What](#what-is-key-of-file)) will be **/stylesheets/app.js**. By default the basePath is same with the folder(the first argument of the upload function).
 
 ## Get started
 
