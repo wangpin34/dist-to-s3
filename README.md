@@ -1,5 +1,10 @@
 # Dist to s3
+[![NPM](https://nodei.co/npm/dist-to-s3.png?stars&downloads)](https://nodei.co/npm/dist-to-s3/)
 
+
+[![npm package](https://img.shields.io/npm/v/dist-to-s3.svg?style=flat-square)](https://www.npmjs.org/package/dist-to-s3)
+[![NPM downloads](http://img.shields.io/npm/dm/dist-to-s3.svg?style=flat-square)](https://npmjs.org/package/dist-to-s3)
+[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/wangpin34/dist-to-s3.svg)](http://isitmaintained.com/project/wangpin34/dist-to-s3 "Average time to resolve an issue")
 ## Why
 
 This is a simplified s3 client for uploading static assets, such as html, css, images, font file onto AWS s3 bucket. It's pretty easy to write the same script rely on the standard docs of AWS, but it's necessary for you to consider following items:
