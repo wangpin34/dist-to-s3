@@ -61,7 +61,8 @@ function upload(file) {
   let filename = path.basename(file.path)
   let content = fs.readFileSync(file.path)
   let contentType = mime.lookup(filename)
-  let key = file.key || file.path
+  // fix: replace path separator of win os as unix style '/'
+  let key = (file.key || file.path).replace(/\\/g, '/')
 
   if (contentType) {
     let params = {
