@@ -1,6 +1,6 @@
 {
   "name": "dist-to-s3",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "upload static assets to aws s3",
   "main": "index.js",
   "author": "wangpin34",
